@@ -1,0 +1,13 @@
+.my-container {
+  margin-top: 100px;
+}
+
+.my-container .my-row .my-title {
+  text-align: center;
+  font-size: 35px;
+}
+
+.my-container .my-row .tabs {
+  color: #2a33ac;
+}
+/*# sourceMappingURL=myAccount.css.map */

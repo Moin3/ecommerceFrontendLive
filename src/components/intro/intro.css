@@ -1,0 +1,80 @@
+/**
+*
+* Testing
+*
+**/
+.i-container {
+  margin-top: 76px;
+  z-index: -100;
+}
+
+.i-container .slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+
+.i-container .slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
+
+.imgDiv {
+  width: 100vw;
+  height: 500px;
+  position: relative;
+}
+
+.imgDiv img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.imgDiv p {
+  position: absolute;
+  font-size: 40px;
+  right: 10%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 375px) {
+  .imgDiv p {
+    font-size: 20px;
+  }
+}
+
+.imgDiv .secondSlide {
+  margin-right: 20px;
+}
+
+.imgDiv button {
+  margin-top: 10px;
+  background-color: #020236;
+  padding: 9px 15px;
+  font-family: 'Nunito', sans-serif;
+  border-radius: 5px;
+  font-size: large;
+  border: none;
+  color: #f7eeee;
+}
+
+.imgDiv button:hover {
+  background-color: #2b2795;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+/*# sourceMappingURL=intro.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAA;EACV,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,IAAI;CASnB;;AAXD,AAGI,cAHU,CAGV,QAAQ,CAAA;EACJ,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,MAAM;EACvB,GAAG,EAAE,IAAI;CAGZ",
+    "sources": [
+        "shopproducts.scss"
+    ],
+    "names": [],
+    "file": "shopproducts.css"
+}

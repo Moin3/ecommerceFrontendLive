@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,UAAU,EAAE,IAAI;CACnB;;AAED,AAAA,aAAa,CAAC;EACV,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "shopfilter.scss"
+    ],
+    "names": [],
+    "file": "shopfilter.css"
+}

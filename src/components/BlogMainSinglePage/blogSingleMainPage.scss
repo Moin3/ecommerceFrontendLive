@@ -1,0 +1,48 @@
+.sp-blog{
+    margin: 100px auto 50px;
+    width: 80%;
+    box-shadow: 0 0 1px #000000;
+    padding: 15px 10px;
+    font-family: 'Nunito', sans-serif;
+    &:hover{
+        transition: all .2s ease-in;
+        box-shadow: 0 0 1px #ff0000;
+
+    }
+
+    .sp-blogTitle{
+        font-size: 40px;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        color: rgb(2, 12, 117);
+
+
+    }
+    .sp-desc{
+        margin-top: 50px;
+        padding: 0 50px;
+        font-family: 'Nunito', sans-serif;
+        text-align: justify;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+        line-height: 30px;
+        &::first-letter{
+            font-size: 40px;
+        }
+
+    }
+        .sp-blogFooter{
+            margin-top: 60px;
+            padding-bottom: 20px;
+            font-size: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 10px;
+            font-family: 'Nunito', sans-serif;
+            font-style: italic;
+
+        }
+        
+
+}

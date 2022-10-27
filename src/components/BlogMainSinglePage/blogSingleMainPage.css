@@ -1,0 +1,55 @@
+.sp-blog {
+  margin: 100px auto 50px;
+  width: 80%;
+  -webkit-box-shadow: 0 0 1px #000000;
+          box-shadow: 0 0 1px #000000;
+  padding: 15px 10px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.sp-blog:hover {
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  -webkit-box-shadow: 0 0 1px #ff0000;
+          box-shadow: 0 0 1px #ff0000;
+}
+
+.sp-blog .sp-blogTitle {
+  font-size: 40px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  color: #020c75;
+}
+
+.sp-blog .sp-desc {
+  margin-top: 50px;
+  padding: 0 50px;
+  font-family: 'Nunito', sans-serif;
+  text-align: justify;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  line-height: 30px;
+}
+
+.sp-blog .sp-desc::first-letter {
+  font-size: 40px;
+}
+
+.sp-blog .sp-blogFooter {
+  margin-top: 60px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-style: italic;
+}
+/*# sourceMappingURL=blogSingleMainPage.css.map */

@@ -1,0 +1,39 @@
+.s-container {
+  padding: 80px 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.s-container .s-title {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 30px;
+  color: #020c75;
+}
+
+.s-container .s-row:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.s-container .s-col:first-child {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.s-container .s-col:last-child {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.s-container .s-filters {
+  font-size: 25px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=shopmainpart.css.map */

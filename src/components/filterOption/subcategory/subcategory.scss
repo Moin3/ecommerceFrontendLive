@@ -1,0 +1,26 @@
+.fsc-filterDiv {
+    margin-top: 15px;
+    
+}
+
+.fsc-checkbox {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #00000023;
+    .fsc-check {
+        cursor: pointer;
+        filter: invert(0%) sepia(7%) saturate(0%) hue-rotate(81deg) brightness(102%) contrast(107%);
+        width: 20px;
+        height: 20px;
+    }
+    .fsc-filterLabel {
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+
+

@@ -1,0 +1,120 @@
+.container {
+  width: 150px;
+  height: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff1f1;
+}
+
+.container:hover {
+  background-color: #f9d4d4;
+}
+
+.container .imgContainer {
+  width: 150px;
+  height: 160px;
+  overflow: hidden;
+  position: relative;
+}
+
+.container .imgContainer .productImg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.container .imgContainer .productImg:hover {
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+}
+
+.container .imgContainer .iconDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 50px;
+  gap: 15px;
+  margin-left: 20px;
+}
+
+.container .imgContainer .iconDiv .icon {
+  padding: 1px;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  color: #ffe600;
+}
+
+.container .imgContainer .iconDiv .icon:hover {
+  color: #ff5202;
+}
+
+.container .information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .information .infoTitle {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.container .information .category {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.container .ratePrice {
+  margin-top: 13px;
+  padding-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 70px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .ratePrice .price, .container .ratePrice .ratting {
+  font-size: smaller;
+}
+/*# sourceMappingURL=productitem.css.map */

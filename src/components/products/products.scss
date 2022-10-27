@@ -1,0 +1,31 @@
+.Container{
+    width: 100%;
+    .titleSec{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .title{
+            margin-top: 35px;
+            margin-bottom: 15px;
+            height: 50px;
+            width: 250px;
+            background-color: rgb(4, 15, 117);
+            color: white;
+            border-radius: 0 10px 0 10px;
+            h1{
+                text-align: center;
+            }
+        }
+    }
+    .productSec{
+        // background-color: rgba(246, 246, 246, 0.966);
+        padding: 20px 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+}

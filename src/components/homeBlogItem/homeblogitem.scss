@@ -1,0 +1,69 @@
+@import '../../breakpoints/breakpoints.scss';
+.hb-blog{
+    background-color: rgb(47, 72, 89);
+    padding: 6px 14px;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .hb-blogTitle{
+        color: rgb(247, 238, 233);
+        font-family: 'Nunito', sans-serif;
+    }
+    .hb-desc{
+        font-family: 'Nunito', sans-serif;
+        color: rgb(249, 243, 243);
+    }
+    .lowerSection{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        @include media('<=phone'){
+            display: flex;
+            flex-wrap: wrap;
+         }
+         @include media('<=tablet'){
+            display: flex;
+            flex-wrap: wrap;
+         }
+        .hb-blogFooter{
+            font-family: 'Nunito', sans-serif;
+            font-size: 10px;
+            margin-top: 3px;
+            color: rgb(243, 185, 127);
+            span:nth-child(2){
+                margin-left: 7px;
+            }
+        }
+
+        
+        .read-more{
+            font-family: 'Nunito', sans-serif;
+            text-decoration: none;
+            color: azure;
+            background-color: rgb(5, 0, 71);
+            padding: 6px 10px;
+            border-radius: 3px;
+            font-size: smaller;
+            transition-duration: .2s;
+            transition-property: all;
+            transition-timing-function: ease-in;
+            @include media('<=phone'){
+              margin-top: 10px;
+             }
+             @include media('<=tablet'){
+                margin-top: 15px;
+             }
+            &:hover{
+                background-color:  rgb(25, 15, 158);
+               
+            }
+        }
+      
+    }
+    
+}

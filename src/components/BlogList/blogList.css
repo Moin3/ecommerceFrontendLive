@@ -1,0 +1,30 @@
+.bl-container {
+  font-family: 'Nunito', sans-serif;
+}
+
+.bl-container .bl-title {
+  margin-top: 100px;
+  color: #020c75;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.bl-container .bl-blogs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 20px;
+  padding: 20px 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  font-family: 'Nunito', sans-serif;
+}
+/*# sourceMappingURL=blogList.css.map */

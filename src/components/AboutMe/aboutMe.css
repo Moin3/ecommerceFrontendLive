@@ -1,0 +1,36 @@
+.am-container .am-row:first-child {
+  text-align: center;
+}
+
+.am-container .am-row:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.am-container .am-row:last-child .am-left {
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+}
+
+.am-container .am-row:last-child .am-left .my-img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.am-container .am-row:last-child .am-fullName {
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+}
+/*# sourceMappingURL=aboutMe.css.map */

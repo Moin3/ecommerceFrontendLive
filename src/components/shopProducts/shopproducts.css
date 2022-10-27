@@ -1,0 +1,17 @@
+.spr-container {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.spr-container .spr-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 70px;
+}
+/*# sourceMappingURL=shopproducts.css.map */

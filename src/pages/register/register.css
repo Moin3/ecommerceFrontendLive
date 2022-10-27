@@ -1,0 +1,95 @@
+.registerContainer {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("https://images.unsplash.com/photo-1607083205410-7e6835ffd235?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTN8fHNob3BwaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+  background: linear-gradient(rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), url("https://images.unsplash.com/photo-1607083205410-7e6835ffd235?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTN8fHNob3BwaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 30px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.registerContainer .wrapper {
+  width: 300px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 7px;
+}
+
+.registerContainer .wrapper .registerTitle {
+  font-size: 25px;
+  color: #9a9a9a;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.registerContainer .wrapper form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 15px;
+}
+
+.registerContainer .wrapper form .registerLink {
+  text-decoration: none;
+}
+
+.registerContainer .wrapper form input {
+  font-family: 'Nunito', sans-serif;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 15px;
+  border: 1px solid #235bbd;
+}
+
+.registerContainer .wrapper form .aggriment {
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.registerContainer .wrapper form .aggriment span {
+  color: #0544a1;
+  cursor: pointer;
+}
+
+.registerContainer .wrapper form .aggriment span:hover {
+  color: #0d5dd5;
+}
+
+.registerContainer .wrapper form button {
+  font-family: 'Nunito', sans-serif;
+  width: 40%;
+  cursor: pointer;
+  height: 30px;
+  font-size: 17px;
+  border: none;
+  background-color: #0544a1;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  color: white;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.registerContainer .wrapper form button:hover {
+  background-color: #0d5dd5;
+}
+/*# sourceMappingURL=register.css.map */

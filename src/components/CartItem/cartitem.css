@@ -1,0 +1,188 @@
+.ci-container {
+  width: 150px;
+  height: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff1f1;
+}
+
+.ci-container:hover {
+  background-color: #f9d4d4;
+}
+
+.ci-container .imgContainer {
+  width: 150px;
+  height: 160px;
+  overflow: hidden;
+  position: relative;
+}
+
+.ci-container .imgContainer .productImg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.ci-container .imgContainer .productImg:hover {
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+}
+
+.ci-container .imgContainer .d-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: .3px solid transparent;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.ci-container .imgContainer .d-btn:hover {
+  border: 0.3px solid #ff5202;
+  color: #ff5202;
+}
+
+.ci-container .imgContainer .iconDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 20px;
+  gap: 15px;
+  margin-left: 20px;
+}
+
+.ci-container .imgContainer .iconDiv .icon {
+  padding: 1px;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  color: #ffe600;
+}
+
+.ci-container .imgContainer .iconDiv .icon:hover {
+  color: #ff5202;
+}
+
+.ci-container .information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ci-container .information .infoTitle {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.ci-container .information .category {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.ci-container .ratePrice {
+  margin-top: 13px;
+  padding-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 70px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ci-container .ratePrice .price, .ci-container .ratePrice .ratting {
+  font-size: smaller;
+}
+
+.ci-container .ci-quantityDiv {
+  padding: 10px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.ci-container .ci-quantityDiv .c-minus, .ci-container .ci-quantityDiv .c-plus {
+  border: none;
+  background-color: white;
+  height: 10px;
+  width: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 9px;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5px;
+}
+
+.ci-container .ci-quantityDiv .c-quantity {
+  font-size: 12px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=cartitem.css.map */

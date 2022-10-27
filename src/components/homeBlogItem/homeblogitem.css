@@ -1,0 +1,110 @@
+/**
+*
+* Testing
+*
+**/
+.hb-blog {
+  background-color: #2f4859;
+  padding: 6px 14px;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hb-blog .hb-blogTitle {
+  color: #f7eee9;
+  font-family: 'Nunito', sans-serif;
+}
+
+.hb-blog .hb-desc {
+  font-family: 'Nunito', sans-serif;
+  color: #f9f3f3;
+}
+
+.hb-blog .lowerSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 375px) {
+  .hb-blog .lowerSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .hb-blog .lowerSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.hb-blog .lowerSection .hb-blogFooter {
+  font-family: 'Nunito', sans-serif;
+  font-size: 10px;
+  margin-top: 3px;
+  color: #f3b97f;
+}
+
+.hb-blog .lowerSection .hb-blogFooter span:nth-child(2) {
+  margin-left: 7px;
+}
+
+.hb-blog .lowerSection .read-more {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  color: azure;
+  background-color: #050047;
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-size: smaller;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+}
+
+@media (max-width: 375px) {
+  .hb-blog .lowerSection .read-more {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hb-blog .lowerSection .read-more {
+    margin-top: 15px;
+  }
+}
+
+.hb-blog .lowerSection .read-more:hover {
+  background-color: #190f9e;
+}
+/*# sourceMappingURL=homeblogitem.css.map */

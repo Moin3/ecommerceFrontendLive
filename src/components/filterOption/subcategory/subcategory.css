@@ -1,0 +1,30 @@
+.fsc-filterDiv {
+  margin-top: 15px;
+}
+
+.fsc-checkbox {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px dashed #00000023;
+}
+
+.fsc-checkbox .fsc-check {
+  cursor: pointer;
+  -webkit-filter: invert(0%) sepia(7%) saturate(0%) hue-rotate(81deg) brightness(102%) contrast(107%);
+          filter: invert(0%) sepia(7%) saturate(0%) hue-rotate(81deg) brightness(102%) contrast(107%);
+  width: 20px;
+  height: 20px;
+}
+
+.fsc-checkbox .fsc-filterLabel {
+  font-weight: bold;
+  cursor: pointer;
+}
+/*# sourceMappingURL=subcategory.css.map */

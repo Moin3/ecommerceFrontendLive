@@ -1,0 +1,73 @@
+@import '../../breakpoints/breakpoints.scss';
+.hb-container{
+    margin-top: 25px;
+    padding: 10px 7px;
+    background-color: rgb(225, 237, 247);
+    .row1{
+        text-align: center;
+        .blogTitle{
+            color: rgb(0, 14, 48);
+            margin-top: 10px;
+            font-size: 22px;
+        }
+        .blogSubtitle{
+            color: rgb(85, 87, 87);
+        }
+    }
+    .row2{
+        margin-top: 15px;
+        display: flex;
+        gap: 2px;
+        background-origin: border-box;
+        @include media('<=phone'){
+            display: flex;
+            flex-wrap: wrap;
+         }
+         @include media('<=tablet'){
+            display: flex;
+            flex-wrap: wrap;
+         }
+        .blogSec{
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            margin: 2px;
+
+
+            
+            .blogSubsec{
+                display: flex;
+                
+                gap: 2px;
+                // margin: 2px;
+                .blogSubSecchild{
+                    margin:2px 2px;
+                }
+            }
+        }
+
+    }
+    .view-more{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        .hb-more{
+            font-family: 'Nunito', sans-serif;
+            text-decoration: none;
+            color: azure;
+            background-color: rgb(40, 29, 25);
+            padding: 6px 10px;
+            border-radius: 3px;
+            font-size: smaller;
+            transition-duration: .2s;
+            transition-property: all;
+            transition-timing-function: ease-in;
+            &:hover{
+                background-color:  rgb(58, 58, 59);
+               
+            }
+        }
+    }
+}

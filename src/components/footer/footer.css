@@ -1,0 +1,126 @@
+.footerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 25px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  background-color: #edf6fe;
+}
+
+.footerContainer .left {
+  width: 400px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-right: 30px;
+}
+
+.footerContainer .left .logo {
+  font-family: 'Macondo', cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.footerContainer .left .desc {
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.footerContainer .left .socialIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.footerContainer .left .socialIcons .socialIcon {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.footerContainer .left .socialIcons .socialIcon:hover {
+  background-color: #fff;
+}
+
+.footerContainer .middle {
+  width: 400px;
+  margin-top: 15px;
+  padding-right: 30px;
+}
+
+.footerContainer .middle .midTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footerContainer .middle .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.footerContainer .middle .list .listItem {
+  list-style-type: none;
+  width: 50%;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.footerContainer .right {
+  width: 400px;
+  margin-top: 15px;
+}
+
+.footerContainer .right .hedding {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footerContainer .right .contactInfo {
+  font-size: 17px;
+  margin-top: 10px;
+  -webkit-column-gap: 5px;
+          column-gap: 5px;
+}
+
+.footerContainer .right .contactInfo .address, .footerContainer .right .contactInfo .phoneNumber, .footerContainer .right .contactInfo .mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+/*# sourceMappingURL=footer.css.map */

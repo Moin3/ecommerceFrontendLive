@@ -1,0 +1,72 @@
+@import '../../breakpoints/breakpoints.scss';
+.newsletterContainer{
+    height: 400px;
+    background-color: #fae1cadf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    @include media('<=phone'){
+        height: 300px;
+     }
+    .newstitle{
+        font-size: 40px;
+        font-weight: bold;
+        @include media('<=phone'){
+            font-size: 25px;
+         }
+    }
+    .disc{
+        font-size: 20px;
+        letter-spacing: 2px;
+        @include media('<=phone'){
+            font-size: 14px;
+         }
+    }
+    .emailContainer{
+        width: 40%;
+        height: 50px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        border-radius: 5px;
+        @include media('<=phone'){
+            height: 40px;
+         }
+        
+        input{
+            height:50px;
+            display: flex;
+            flex: 8;
+            border: none;
+            outline: none;
+            padding-left: 10px;
+            margin-left: 15px;
+            font-size: 20px;
+            border-radius: 5px 0px 0px 5px;
+            @include media('<=phone'){
+                flex: 6;
+                height: 30px;
+                width: 80%;
+                font-size: 15px;
+             }
+        }
+        button{
+            height: 50px;
+            flex: 1;
+            background-color: #235bbd;
+            border: none;
+            border-radius: 0px 5px 5px 0px;
+            @include media('<=phone'){
+                flex: 2;
+                height: 40px;
+             }
+            .icon{
+                font-size: 20px;
+                color: white;
+            }
+        }
+    }
+}

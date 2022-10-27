@@ -1,0 +1,16 @@
+.fs-filterDiv {
+  margin-top: 15px;
+}
+
+.fs-filterDiv .fs-filterInput {
+  font-family: 'Nunito', sans-serif;
+  height: 20px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000000;
+  width: 100%;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 0 10px 5px 5px;
+}
+/*# sourceMappingURL=search.css.map */

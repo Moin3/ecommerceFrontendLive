@@ -1,0 +1,111 @@
+/**
+*
+* Testing
+*
+**/
+.hb-container {
+  margin-top: 25px;
+  padding: 10px 7px;
+  background-color: #e1edf7;
+}
+
+.hb-container .row1 {
+  text-align: center;
+}
+
+.hb-container .row1 .blogTitle {
+  color: #000e30;
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+.hb-container .row1 .blogSubtitle {
+  color: #555757;
+}
+
+.hb-container .row2 {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2px;
+  background-origin: border-box;
+}
+
+@media (max-width: 375px) {
+  .hb-container .row2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .hb-container .row2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.hb-container .row2 .blogSec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2px;
+  margin: 2px;
+}
+
+.hb-container .row2 .blogSec .blogSubsec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2px;
+}
+
+.hb-container .row2 .blogSec .blogSubsec .blogSubSecchild {
+  margin: 2px 2px;
+}
+
+.hb-container .view-more {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.hb-container .view-more .hb-more {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  color: azure;
+  background-color: #281d19;
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-size: smaller;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+}
+
+.hb-container .view-more .hb-more:hover {
+  background-color: #3a3a3b;
+}
+/*# sourceMappingURL=homeblog.css.map */

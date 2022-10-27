@@ -1,0 +1,76 @@
+.signInContainer{
+    height:100vh;
+    display: flex;
+    background: linear-gradient(rgba(255,255,255,.5) 0%, rgba(255,255,255,.5) 100%), url("https://images.unsplash.com/photo-1607083205410-7e6835ffd235?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTN8fHNob3BwaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+    font-family: 'Nunito', sans-serif;
+    .wrapper{
+        margin-top: 50px;
+        width: 300px;
+        // height: 400px;
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 7px;
+        .signInTitle{
+            font-size: 25px;
+            color: #9a9a9a;
+            font-weight: 400;
+            margin-bottom: 30px;
+            font-family: 'Nunito', sans-serif;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            row-gap: 15px;
+            .registerLink{
+                text-decoration: none;
+            }
+            input{
+                font-family: 'Nunito', sans-serif;
+                outline: none;
+                border: none;
+                padding: 5px 10px;
+                border-radius: 5px;
+                height: 30px;
+                margin: 10px 0px;
+                font-size: 15px;
+                border: 1px solid #235bbd;
+            }
+            .aggriment{
+                font-family: 'Nunito', sans-serif;
+                font-size:13px;
+                letter-spacing: 2px;
+                margin: 10px 0px;
+                span{
+                    color: #0544a1;
+                    cursor: pointer;
+                    &:hover{
+                        color: #0d5dd5;
+                    }
+                }
+            }
+            button{
+                font-family: 'Nunito', sans-serif;
+                width: 40%;
+                cursor: pointer;
+                height: 30px;
+                font-size: 17px;
+                border: none;
+                background-color: #0544a1;
+                transition: all .2s ease-out;
+                color: white;
+                border-radius: 5px;
+                margin: 10px 0px;
+
+
+                &:hover{
+                    background-color: #0d5dd5;
+                }
+            }
+        }
+    }
+}
